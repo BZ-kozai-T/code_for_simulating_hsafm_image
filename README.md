@@ -1,4 +1,4 @@
-# Code-for-simulating-HS-AFM-image
+# Code_for_simulating_HS-AFM_image
 
 Acknowledgements:
 
