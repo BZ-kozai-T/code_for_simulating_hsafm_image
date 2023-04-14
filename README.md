@@ -2,4 +2,4 @@
 
 Acknowledgements:
 
-We thank A. Mazur for writing the code for simulating HS-AFM image of the BD simulation.
+We thank A. Mazur for writing the code for computing HS-AFM image from the BD simulation.
