@@ -1,0 +1,18 @@
+filenames:
+  data_dir:  "D:/BD simulation/HS-AFM_simulation/run_1/" # absolute path to folder with data, also where to write output
+  dcd_file:  "npc_prod_72us.xtc"   # molecular trajectory file, relative to data_dir
+  pdb_file:  "kim2018.pdb"  # topology filename
+  tiff_file: "kim2018_40x40.tiff" # output file
+
+hs-afm:
+  nxpxl: 40             # number of pixels in y direction
+  nypxl: 40 		# number of pixels in x direction
+  nfpp:   1            # frames per pixel in the HS-AFM calculation
+  x_img_origin: -180.0  # coordinates of imaging plane; e.g., (x,y) = (-290, 290) for 60x60 pixels, (-180 x 180) for 40x40
+  y_img_origin: 180.0   
+  pxl_size: 9.875       # in angstrom
+  z_m:       0.0        # Z height of image plane in angstrom ; 0.0 = equator of the NPC
+  z_lim: 500.0          # Z upper limit in angstrom
+  Rtip: 30.0            # tip radius in angstrom
+
+
